@@ -98,6 +98,16 @@ header {
 
 }
 
+#lumen {
+    grid-area: lumen;
+    width: 250px;      
+    height: 250px;     
+    object-fit: cover; 
+    display: block;    
+    margin: 0 auto;
+    gap: 10px;
+}
+
 #foot {
     grid-area: foot;
 }
@@ -117,10 +127,10 @@ header {
     grid-template-columns: 1fr 2fr 2fr 1fr;
     grid-template-rows: .5fr .5fr 1fr 1fr 1fr;
     grid-template-areas: 
-    "head head head head"
-    "nav intro intro intro"
+    "nav nav nav nav"
+    "lumen intro intro intro"
     "mh hol hol hol"
-    "pete pete pete ca"
+    "pete pete but ca"
     "mm mac mac mac"
     "foot foot foot foot"
     ;
@@ -183,4 +193,149 @@ grid-area: bam;
     display:block;
     margin: 0 auto 10px;
 }
+
+
+#matt {
+    grid-area: matt;
+}
+
+#lofa {
+    grid-area: lofa;
+}
+
+#alx {
+    grid-area: fish;
+}
+
+#engram {
+    grid-area: eng;
+}
+
+#bab {
+    grid-area: bab;
+}
+
+#stats2005 {
+    grid-area: ofive;
+}
+
+#gridfirsts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr .5fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    grid-template-areas: 
+    "matt lofa alx ofive"
+    "fish eng bab ofive";
+}
+
+#sam {
+    grid-area: sam;
+}
+
+#sampic {
+    grid-area: sapic;
+    width: 250px;      
+    height: 250px;     
+    object-fit: cover; 
+    display: block;    
+    margin: 0 auto;
+    gap: 10px;
+}
+
+#samstat {
+    grid-area: sstat;
+}
+
+
+#jones {
+    grid-area: jon;
+}
+
+#jonespic {
+    grid-area: jpic;
+    width: 250px;      
+    height: 250px;     
+    object-fit: cover; 
+    display: block;    
+    margin: 0 auto;
+    gap: 10px;
+}
+
+#jonesstat {
+    grid-area: jstat;
+}
+
+
+#jsn {
+    grid-area: jsn;
+}
+
+#jsnpic {
+    grid-area: jsnpic;
+    width: 250px;      
+    height: 250px;     
+    object-fit: cover; 
+    display: block;    
+    margin: 0 auto;
+    gap: 10px;
+}
+
+#jsnstat {
+    grid-area: jsnstat;
+}
+
+
+#riq {
+    grid-area: riq;
+}
+
+#riqpic {
+    grid-area: riqpic;
+    text-align: center;
+    width: 250px;      
+    height: 250px;     
+    object-fit: cover; 
+    display: block;    
+    margin: 0 auto;
+    gap: 10px;
+}
+
+#riqstat {
+    grid-area: riqstat;
+}
+
+#sha {
+    grid-area: sha;
+}
+
+#shapic {
+    grid-area: shapic;
+    width: 250px;      
+    height: 250px;     
+    object-fit: cover; 
+    display: block;    
+    margin: 0 auto;
+    gap: 10px;
+}
+
+#shastat {
+    grid-area: shastat;
+}
+
+#ima {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 20px;
+    grid-template-areas:
+    "sam sapic sstat"
+    "jon jpic jstat"
+    "jsn jsnpic jsnstat"
+    "riq riqpic riqstat"
+    "sha shapic shastat"
+}
+
 
