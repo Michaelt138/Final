@@ -1,0 +1,186 @@
+body {
+    background-color: gray;
+}
+
+    footer {
+    background-color: rgb(21, 21, 114);
+
+}
+
+header {
+    background-color: rgb(21, 21, 114);
+    text-align: center;
+    padding: 10px;
+}
+
+.coach {
+    background-color: rgb(7, 236, 7);
+    color: rgb(21,21,114);
+}
+
+.style {
+    text-align: center;
+    font-size: larger;
+    font-style: normal;
+    color: rgb(7, 236, 7);
+   
+}
+
+#head {
+    grid-area: head;
+    #head {
+    position: sticky;
+    top: 0;
+    z-index: 1000;   
+    background: white; 
+}
+
+}
+
+#pg {
+    text-align: center;
+}
+
+#nav {
+    grid-area: nav;
+}
+
+.navi {
+    text-align: center;
+}
+
+#intro {
+    grid-area: intro;
+    background-color: rgb(21,21,114);
+    color: rgb(7, 236,7);
+}
+
+#Holmgren {
+    grid-area: hol;
+}
+
+#Pete {
+    grid-area: pete;
+    background-color: rgb(21, 21, 114);
+    color: rgb(7, 236, 7);
+}
+
+#MacDonald {
+    grid-area: mac;
+}
+
+#mikeh {
+    grid-area: mh;
+   width: 250px;      
+    height: 250px;     
+    object-fit: cover; 
+    display: block;    
+    margin: 0 auto;
+}
+
+#carroll {
+    grid-area: ca;
+    width: 250px;      
+    height: 250px;     
+    object-fit: cover; 
+    display: block;    
+    margin: 0 auto;
+
+}
+
+#mikem {
+    grid-area: mm;
+    width: 250px;      
+    height: 250px;     
+    object-fit: cover; 
+    display: block;    
+    margin: 0 auto;
+
+}
+
+#foot {
+    grid-area: foot;
+}
+
+#thirt {
+    grid-area: thi;
+    text-align: center;
+}
+
+.stats {
+    text-align: center;
+}
+
+#gridContainer {
+    display:grid;
+    width: 100%;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: .5fr .5fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "head head head head"
+    "nav intro intro intro"
+    "mh hol hol hol"
+    "pete pete pete ca"
+    "mm mac mac mac"
+    "foot foot foot foot"
+    ;
+}
+
+#russ {
+    grid-area: russ;
+
+}
+
+#bby {
+    grid-area: bby;
+}
+
+#beast {
+    grid-area: beast;
+}
+
+#bam {
+grid-area: bam;
+}
+
+#doug {
+    grid-area: doug;
+}
+
+#sherm {
+    grid-area: sherm;
+}
+
+#stats2013 {
+    grid-area: stats;
+}
+
+#team-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr .5fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    grid-template-areas: 
+    "russ bby beast stats"
+    "bam doug sherm stats"
+    ;
+}
+
+
+.player {
+    background: #20ee04;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.player img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display:block;
+    margin: 0 auto 10px;
+}
+
