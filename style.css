@@ -19,6 +19,7 @@ header {
     color: rgb(21,21,114);
 }
 
+
 .style {
     text-align: center;
     font-size: larger;
@@ -262,6 +263,12 @@ grid-area: bam;
     display: block;    
     margin: 0 auto;
     gap: 10px;
+    
+}
+
+.no {
+    position: relative;
+    left: 150px;
 }
 
 #jonesstat {
@@ -325,6 +332,13 @@ grid-area: bam;
     grid-area: shastat;
 }
 
+.tx {
+color: #20ee04;
+text-decoration: solid;
+font-size: 32px;
+}
+
+
 #ima {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -340,3 +354,69 @@ grid-area: bam;
 }
 
 
+@media screen and (600px > width) {
+    #ima {
+        grid-template-columns: 1fr 1fr;
+        grid-column: auto;
+        grid-template-areas:
+        "sam sapic"
+        "sstat sapic"
+        "jon jpic"
+        "jstat jpic"
+        "jsn jsnpic"
+        "jsnstat jsnpic"
+        "riq riqpic"
+        "riqstat riqpic"
+        "sha shapic"
+        "shastat shapic"
+    }
+}
+
+@media screen and (800px > width) {
+    #gridfirsts
+    {
+        background-color: blue;
+    grid-template-columns: 1fr .5fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "matt lofa"
+    "alx bab "
+    "fish eng"
+    "ofive ofive"
+    }
+
+}
+
+@media screen and (700px > width) {
+    #team-grid {
+    display: grid;
+    grid-template-columns: .5fr 2fr .5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    grid-template-areas: 
+    "russ stats bby"
+    "beast stats sherm"
+    "doug stats bam"
+    
+    ;
+}
+}
+
+
+@media screen and (850px > width) {
+#gridContainer {
+    display:grid;
+    width: 100%;
+    grid-template-columns: 1fr .5fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "nav nav nav"
+    "lumen lumen intro"
+    "mh mh hol"
+    "pete ca but"
+    "mm mac mac"
+    "foot foot foot"
+    ;
+}
+}
